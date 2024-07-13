@@ -10,13 +10,14 @@
 .hero-page{
     height: 42em;
     width: 100%;
-    background-image: url(hero-image.jpeg);
+    background-image: url(hero-image.jpg);
+    opacity: 1;
     background-size: cover;
-    border-bottom: 0.65em solid gray;
+    border-bottom: 0.58em solid rgb(58, 58, 58);
 }
 
 .hero{
-    padding :22px 120px 30px 120px;
+    padding :18px 120px 30px 120px;
     display: flex;
     justify-content: space-between;
 }
@@ -27,9 +28,9 @@
 }
 
 #logo-hero{
-    width: 11em;
-    height: 3em;
-    background-image: url(logo-netflix.jpg);
+    width: 13em;
+    height: 5em;
+    background-image: url(logo-netflix.png);
     background-size: cover;
 }
 
@@ -136,12 +137,12 @@
     background-color: black;
     display: flex;
     justify-content: start;
-    /* align-items: center; */
+    border-bottom: 0.58em solid rgb(58, 58, 58);
 }
 
 .heading-content-page2{
     width: 50%;
-    padding-left: 16em;
+    padding-left: 11em;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -175,4 +176,78 @@
 .page2-image{
     position: relative;
     z-index: 1;
+}
+
+/* PAGE 3 */
+.page3{
+    width: 100%;
+    height: 32em;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    border-bottom: 0.58em solid rgb(58, 58, 58);
+}
+
+.boxshot-photo2-page3{
+    width: 270px;
+    height: 108px;
+    background-color: #000000;
+    border: 2px solid rgba(128, 128, 128, 0.7);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    left: 7.5rem;
+    bottom: 8.3rem;
+}
+
+.photo-page3{
+    margin-left: 163.281px;
+}
+
+.heading-content{
+    margin-right: 163.281px;
+}
+
+.heading-page3{
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.content-page3{
+    font-size: 1.7rem;
+    font-weight: 400;
+    margin-top: 1rem;
+}     
+
+.boxshot-content1{
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.boxshot-content2{
+    color: #0071EB;
+    padding-top: 0.2rem;
+    font-size: 15px;
+}
+
+/* page-3 */
+.page3{
+    width: 100%;
+    height: 32em;
+    background-color: black;
+    display: flex;
+    justify-content: start;
+    border-bottom: 0.58em solid rgb(58, 58, 58);
+}
+
+/* PAGE 4 */
+.page4{
+    width: 100%;
+    height: 32em;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    border-bottom: 0.58em solid rgb(58, 58, 58);
 }
