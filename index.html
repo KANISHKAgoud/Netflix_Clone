@@ -1,364 +1,173 @@
-*{
-    margin: 0;
-    padding: 0;
-    color: white;
-    font-family: Helvetica, sans-serif;
-    border: border-box;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>netflix-home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="hero-page">
+        <p class="hero-page-background">
+            <header class="hero">
+                <div id="logo-hero"></div>
+                <div class="hero-language-signIn">
+                    <div class="language-hero">
+                        <i class="fa-solid fa-language"></i>
+                        <a href="#" target="_blank">English</a>   
+                        <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                    <div class="sign-in-hero">
+                        <a class="sign-in-a" href="#" target="_blank">Sign In</a>  
+                    </div>
+                </div>
+            </header>
 
-/* HEADER OF HERO PAGE */
-.hero-page{
-    height: 42em;
-    width: 87.25rem;
-    border-bottom: 0.58em solid rgb(58, 58, 58);
-}
+            <div class="hero-content">
+                <h1 class="main-content"><b>Unlimited movies, TV shows and more</b></h1>
+                <div class="sub-content">Watch anywhere. Cancel anytime.</div>
+                <div class="sub-content">Ready to watch? Enter your email to create or restart your membership.</div>
+                <div class="email-getstarted-hero">
+                    <div class="email-box">
+                        Email address
+                    </div>
+                    <div class="getstarted-box">
+                        Get Starded <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+                </div>
+            </div>
+        </p>    
+    </div>
 
-.hero-page-background{
-    height: 42em;
-    width: 87.25rem;
-    position: absolute;
-    background-image: url(hero-image.jpg);
-    background-size: cover;
-    filter: brightness(0.3);
-}
+    <div class="page2">
+        <div class="heading-content-page2">
+            <h2 class="heading-page2">Enjoy on your TV</h2>
+            <pre class="content-page2">Watch on smart TVs,PlayStation, Xbox, 
+Chromecast, Apple TV, Blu-ray players and 
+more.
+            </pre>
+        </div>    
+        <div class="image-video-page2">
+            <img class="page2-image" alt="" src="page2-image.png"   height="354.28px">
+            
+            <video class="page2-video"  autoplay=""  muted="" loop=""><source src="video-page2.m4v"  ></video>
+        </div>
+    </div>
 
-.hero{
-    padding :24px 120px 30px 120px;
-    display: flex;
-    justify-content: space-between;
-}
+    <div class="page3">
+        <div class="photo-page3">
+            <img src="image-page3.jpg" alt="mobile-image" width="520rem" height="360rem">
+            <div class="boxshot-photo2-page3">
+                <img src="boxshot-page3.png" alt="boxshot-image" width="61px" height="81.7px">
+                <div class="boxshot-content">
+                    <pre class="boxshot-content1">Stranger Things</pre>  
+                    <div class="boxshot-content2">Downloading...</div> 
+                </div>
+                <i class="fa-solid fa-download"></i>
+                <!-- <i class="fa-solid fa-square-check"></i> -->
+            </div>
+        </div>
+        <div class="heading-content">
+            <pre class="heading-page3">Download your 
+shows to watch 
+offline</pre>
+            <pre class="content-page3">Save your favourites easily and always have 
+something to watch.</pre>
+        </div>    
+    </div>
 
-.hero-language-signIn{
-    display: flex;
-    gap: 0 2em;    
-    z-index: 1;
-}
+    <div class="page4">
+        <div class="heading-content-page2">
+            <h2 class="heading-page2">Watch everywhere</h2>
+            <pre class="content-page2">Stream unlimited movies and TV shows on 
+your phone, tablet, laptop, and TV.
+            </pre>
+        </div>    
+        <div class="image-video-page2">
+            <img class="page2-image" alt="" src="device-page3.png"   height="354.28px">
+            
+            <video class="page4-video" autoplay="" playsinline="" muted="" loop="" > <source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices-in.m4v"></video>
+        </div>
+    </div>
 
-#logo-hero{
-    width: 13em;
-    height: 5em;
-    background-image: url(logo-netflix.png);
-    background-size: cover;
-    z-index: 1;
-}
+    <div class="page5">
+        <div class="photo-page3">
+            <img src="kids-page-4.png" alt="mobile-image" width="520rem" height="360rem">
+        </div>
+        <div class="heading-content">
+            <pre class="heading-page3">Create profiles for 
+kids</pre>
+            <pre class="content-page3">Send children on adventures with their 
+favourite characters in a space made just for 
+them—free with your membership. </pre>
+        </div>    
+    </div>
 
-.language-hero{
-    border: 1px solid white;
-    width: 126px;
-    height: 32px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 0 9px;
-    border-radius: 6px;
-}
+    <div class="page6">
+        <div class="div-1-page5">
+            Frequently Asked Questions
+        </div>
+        <div class="page5-boxes">
+            <button class="boxes-page5">What is Netflix?<i class="fa-solid fa-plus"></i></button>
+            <button class="boxes-page5">How much does Netflix cost?<i class="fa-solid fa-plus"></i>     </button>
+            <button class="boxes-page5">Where can I watch?<i class="fa-solid fa-plus"></i></button>
+            <button class="boxes-page5">How do I cancel?<i class="fa-solid fa-plus"></i></button>
+            <button class="boxes-page5">What can I watch on Netflix?<i class="fa-solid fa-plus"></i>    </button>
+            <button class="boxes-page5">Is Netflix good for kids?<i class="fa-solid fa-plus"></i>       </button>
+        </div>
+        
+        <div class="div-8-page5">
+            Ready to watch? Enter your email to create or restart your membership. 
+        </div>
+        <div class="div-9-page5">
+            <div class="email-getstarted-hero">
+                <div class="email-box">
+                    Email address
+                </div>
+                <div class="getstarted-box">
+                    Get Starded <i class="fa-solid fa-chevron-right"></i>
+                </div>
+            </div>
+        </div>
+    </div>
 
-.language-hero a{
-    text-decoration: none;
-}
+    <footer class="page7-footer">
+        <div class="content-page6">Questions? Call 000-800-919-1694</div>
+        <div class="footer-information-list">
+            <ul  class="footer-information">
+                <a href="#" target="_blank">FAQ</a>
+                <a href="#" target="_blank">Investor Relations</a>
+                <a href="#" target="_blank">Privacy</a>
+                <a href="#" target="_blank">Speed Test</a>
+                <div class="language-hero">
+                    <i class="fa-solid fa-language"></i>
+                    <a href="#" target="_blank">English</a>   
+                    <i class="fa-solid fa-caret-down"></i>
+                </div>
+                <a href="#" target="_blank">Netflix India</a>
+            </ul>
 
-.sign-in-hero{
-    width: 76.91px;
-    height: 32px;
-    background-color: red;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 6px;
-    transition: background-color 1s ease-in;
-}
+            <ul class="footer-information">
+                <a href="#" target="_blank">Help Centre</a>
+                <a href="#" target="_blank">Jobs</a>
+                <a href="#" target="_blank">Cookie Preferences</a>
+                <a href="#" target="_blank">Legal Notices</a>
+            </ul>
 
-.sign-in-hero:hover{
-    background-color: rgb(185, 2, 2);
-}
+            <ul class="footer-information">
+                <a href="#" target="_blank">Account</a>
+                <a href="#" target="_blank">Ways to Watch</a>
+                <a href="#" target="_blank">Corporate Information</a>
+                <a href="#" target="_blank">Only on Netflix</a>
+            </ul>
 
-.sign-in-a{
-    text-decoration: none;
-}
-
-/* @media only screen and (max-width: 708px){
-    .hero-page{
-        width: 708px;
-    }
-
-    .hero{
-        width: 1200px;
-        display: flex;
-        justify-content: space-between;
-    }
-} */
-
-/* HERO PAGE CONTENT  */
-.hero-content{
-    height: 100%;
-    width: 87.25rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 12em;
-    
-}
-
-.main-content{
-    font-size: 39px;
-    font-weight: bolder;
-    z-index: 1;
-
-}
-
-.sub-content{
-    margin-top: 16px;
-    font-size: 24px;
-    z-index: 1;
-}
-
-.email-getstarted-hero{
-    margin-top: 16px;
-    display: flex;
-    gap: 0px 10px;
-    z-index: 1;
-}
-
-.email-box{
-    height: 45px;
-    width: 420px;
-    border: 0.1px solid white;
-    border-radius: calc(0.1875rem);
-    /* display: flex;
-    align-items: center; */
-    padding-top: 13px;
-    padding-left: 16px ;
-    color: rgb(193, 185, 185);
-    font-size: 1em;
-    transition: font-size 1s ease-in;
-}
-
-.email-box:hover{
-    font-size: 0.75em;
-}
-
-.getstarted-box{
-    height: 62px;
-    width: 230px;
-    font-size: 24px;
-    font-weight: bolder;
-    background-color: red;
-    border-radius: calc(0.1875rem);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0px 10px;
-    transition: background-color 1s ease-in;
-}
-
-.getstarted-box:hover{
-    background-color: rgb(185, 2, 2);
-}
-
-/* PAGE 2  */
-.page2{
-    width: 87.25em;
-    height: 32em;
-    background-color: black;
-    display: flex;
-    justify-content: start;
-    border-bottom: 0.58em solid rgb(58, 58, 58);
-}
-
-.heading-content-page2{
-    width: 50%;
-    padding-left: 11em;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.heading-page2{
-    font-size: 39px;
-    font-weight: bolder;
-}
-
-.content-page2{
-    font-size: 24px;
-    margin-top: 16px;
-}
-
-.image-video-page2{
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    padding-top: 4em;
-}
-
-.page2-video{
-    width: 344.83px;
-    height: 193.47px;
-    position: relative;
-    top: 4.5em;
-    right: 25.7em;
-}
-
-.page2-image{
-    position: relative;
-    z-index: 1;
-}
-
-/* PAGE 3 */
-.page3{
-    width: 87.25rem;
-    height: 32em;
-    background-color: black;
-    display: flex;
-    align-items: center;
-    border-bottom: 0.58em solid rgb(58, 58, 58);
-}
-
-.boxshot-photo2-page3{
-    width: 270px;
-    height: 108px;
-    background-color: #000000;
-    border: 2px solid rgba(128, 128, 128, 0.7);
-    border-radius: 12px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    position: relative;
-    left: 7.5rem;
-    bottom: 8.3rem;
-}
-
-.photo-page3{
-    margin-left: 163.281px;
-}
-
-.heading-content{
-    margin-right: 163.281px;
-}
-
-.heading-page3{
-    font-size: 3rem;
-    font-weight: 900;
-}
-
-.content-page3{
-    font-size: 1.7rem;
-    font-weight: 400;
-    margin-top: 1rem;
-}     
-
-.boxshot-content1{
-    font-size: 17px;
-    font-weight: 700;
-}
-
-.boxshot-content2{
-    color: #0071EB;
-    padding-top: 0.2rem;
-    font-size: 15px;
-}
-
-/* page-4 */
-.page4{
-    width: 87.25rem;
-    height: 32em;
-    background-color: black;
-    display: flex;
-    justify-content: start;
-    border-bottom: 0.58em solid rgb(58, 58, 58);
-}
-
-.page4-video{
-    width: 297px;
-    height: 193.47px;
-    position: relative;
-    right: 24em;
-    top: 1em;
-}
-
-/* PAGE 5 */
-.page5{
-    width: 87.25rem;
-    height: 32em;
-    background-color: black;
-    display: flex;
-    align-items: center;
-    border-bottom: 0.58em solid rgb(58, 58, 58);
-}
-
-/* PAGE 6 */
-.page6{
-    width: 87.25rem;
-    height: 59em;
-    background-color: #000000;
-    border-bottom: 0.58em solid rgb(58, 58, 58);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.div-1-page5{
-    font-size: 3rem;
-    font-weight: 900;
-}
-
-.page5-boxes i{
-    display: flex;
-    justify-content: end; 
-    position: relative;
-    bottom: 0.85em;
-}
-
-.page5-boxes{
-    margin-top: 1em;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.boxes-page5{
-    width: 956.771px;
-    height: 84px;
-    font-size: 24px;
-    padding: 1.5rem;
-    text-align: left;
-    cursor: pointer;
-    background-color: rgb(45, 44, 44);
-    margin-top: 0.45em;
-    border: none;
-}
-
-.div-8-page5{
-    margin-top: 3em ;
-    font-size: 20px;
-}
-
-/* PAGE 7 FOOTER */
-.page7-footer{
-    width: 87.25rem;
-    height: 32em;
-    background-color: #000000;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 1.3em 0em;
-    color: #dddddd;
-}
-
-.content-page6{
-    margin-left: 8.1em;
-}
-
-.footer-information-list{
-    margin-right: 14em;
-    display: flex;
-    justify-content: space-evenly;
-
-}
-
-.footer-information{
-    display: flex;
-    flex-direction: column;
-    gap: 1.3em 0em;
-}
+            <ul class="footer-information">
+                <a href="#" target="_blank">Media Centre</a>
+                <a href="#" target="_blank">Terms of Use</a>
+                <a href="#" target="_blank">Contact Us</a>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
