@@ -76,15 +76,46 @@
     text-decoration: none;
 }
 
-/* @media only screen and (max-width: 708px){
+@media only screen and (max-width: 955px){
     .hero-page{
-        width: 708px;
+        height: 750px;
+        border-bottom: 0.58em solid rgb(58, 58, 58);
     }
 
-    .hero{
-        width: 1200px;
-        display: flex;
-        justify-content: space-between;
+    .hero-page-background{
+        height: 750px;
+        position: absolute;
+        background-image: url(hero-image.jpg);
+        background-size: cover;
+        filter: brightness(0.3);
+    }
+
+    .main-content{
+        font-size: 49px;
+    }
+
+    .sub-content{
+        font-size: 27px;
+    }
+
+    .email-box{
+        height: 55px;
+        width: 450px;
+    }    
+}
+
+/* @media only screen and (max-width: 706px){
+    .hero-page{
+        height: 750px;
+        border-bottom: 0.58em solid rgb(58, 58, 58);
+    }
+
+    .hero-page-background{
+        height: 750px;
+        position: absolute;
+        background-image: url(hero-image.jpg);
+        background-size: cover;
+        filter: brightness(0.3);
     }
 } */
 
