@@ -76,49 +76,6 @@
     text-decoration: none;
 }
 
-@media only screen and (max-width: 955px){
-    .hero-page{
-        height: 750px;
-        border-bottom: 0.58em solid rgb(58, 58, 58);
-    }
-
-    .hero-page-background{
-        height: 750px;
-        position: absolute;
-        background-image: url(hero-image.jpg);
-        background-size: cover;
-        filter: brightness(0.3);
-    }
-
-    .main-content{
-        font-size: 49px;
-    }
-
-    .sub-content{
-        font-size: 27px;
-    }
-
-    .email-box{
-        height: 55px;
-        width: 450px;
-    }    
-}
-
-/* @media only screen and (max-width: 706px){
-    .hero-page{
-        height: 750px;
-        border-bottom: 0.58em solid rgb(58, 58, 58);
-    }
-
-    .hero-page-background{
-        height: 750px;
-        position: absolute;
-        background-image: url(hero-image.jpg);
-        background-size: cover;
-        filter: brightness(0.3);
-    }
-} */
-
 /* HERO PAGE CONTENT  */
 .hero-content{
     height: 100%;
@@ -186,6 +143,10 @@
     background-color: rgb(185, 2, 2);
 }
 
+
+
+
+
 /* PAGE 2  */
 .page2{
     width: 87.25em;
@@ -233,6 +194,8 @@
     position: relative;
     z-index: 1;
 }
+
+
 
 /* PAGE 3 */
 .page3{
@@ -286,6 +249,54 @@
     color: #0071EB;
     padding-top: 0.2rem;
     font-size: 15px;
+}
+
+@media only screen and (max-width: 955px){
+
+    .hero-page{
+        width: 57em;
+        height: 750px;
+        border-bottom: 0.58em solid rgb(58, 58, 58);
+    }
+
+    .hero-page-background{
+        width: 57em;
+        height: 750px;
+        position: absolute;
+        background-image: url(hero-image.jpg);
+        background-size: cover;
+        filter: brightness(0.3);
+    }
+
+    .hero-content{
+        width: 57em;
+    }
+
+    .page2, .page3{
+        width: 57em;
+        height: 36em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .heading-content-page2{
+        height: 16em;
+        margin-right: 8em;
+    }
+
+    .image-video-page2{
+        height: 11em;
+        position: relative;
+        bottom: 10em;
+        left: 10em;
+    }
+
+    /* .page3{
+
+    } */
+
 }
 
 /* page-4 */
