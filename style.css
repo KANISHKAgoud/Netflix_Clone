@@ -9,13 +9,13 @@
 /* HEADER OF HERO PAGE */
 .hero-page{
     height: 42em;
-    width: 87.25rem;
+    width: 94.25rem;
     border-bottom: 0.58em solid rgb(58, 58, 58);
 }
 
 .hero-page-background{
     height: 42em;
-    width: 87.25rem;
+    width: 94.25rem;
     position: absolute;
     background-image: url(hero-image.jpg);
     background-size: cover;
@@ -146,7 +146,7 @@
 
 /* PAGE 2  */
 .page2{
-    width: 87.25em;
+    width: 94.25em;
     height: 32em;
     background-color: black;
     display: flex;
@@ -196,7 +196,7 @@
 
 /* PAGE 3 */
 .page3{
-    width: 87.25rem;
+    width: 94.25rem;
     height: 32em;
     background-color: black;
     display: flex;
@@ -253,7 +253,7 @@
 
 /* page-4 */
 .page4{
-    width: 87.25rem;
+    width: 94.25rem;
     height: 32em;
     background-color: black;
     display: flex;
@@ -272,7 +272,7 @@
 
 /* PAGE 5 */
 .page5{
-    width: 87.25rem;
+    width: 94.25rem;
     height: 32em;
     background-color: black;
     display: flex;
@@ -283,7 +283,7 @@
 
 /* PAGE 6 */
 .page6{
-    width: 87.25rem;
+    width: 94.25rem;
     height: 59em;
     background-color: #000000;
     border-bottom: 0.58em solid rgb(58, 58, 58);
@@ -332,7 +332,7 @@
 
 /* PAGE 7 FOOTER */
 .page7-footer{
-    width: 87.25rem;
+    width: 94.25rem;
     height: 32em;
     background-color: #000000;
     display: flex;
@@ -359,7 +359,7 @@
     gap: 1.3em 0em;
 }
 
-/* @media only screen and (max-width: 955px){
+@media only screen and (max-width: 955px){
 
     .hero-page{
         width: 57em;
@@ -437,4 +437,4 @@
     }
 
 
-} */
+}
