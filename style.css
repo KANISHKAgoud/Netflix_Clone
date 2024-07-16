@@ -144,9 +144,6 @@
 }
 
 
-
-
-
 /* PAGE 2  */
 .page2{
     width: 87.25em;
@@ -222,11 +219,13 @@
 }
 
 .photo-page3{
-    margin-left: 163.281px;
+    /* margin-left: ;
+    width: 10em; */
+    margin-right: 30em;
 }
 
 .heading-content{
-    margin-right: 163.281px;
+    margin-left: 23.281px;
 }
 
 .heading-page3{
@@ -251,53 +250,6 @@
     font-size: 15px;
 }
 
-@media only screen and (max-width: 955px){
-
-    .hero-page{
-        width: 57em;
-        height: 750px;
-        border-bottom: 0.58em solid rgb(58, 58, 58);
-    }
-
-    .hero-page-background{
-        width: 57em;
-        height: 750px;
-        position: absolute;
-        background-image: url(hero-image.jpg);
-        background-size: cover;
-        filter: brightness(0.3);
-    }
-
-    .hero-content{
-        width: 57em;
-    }
-
-    .page2, .page3{
-        width: 57em;
-        height: 36em;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .heading-content-page2{
-        height: 16em;
-        margin-right: 8em;
-    }
-
-    .image-video-page2{
-        height: 11em;
-        position: relative;
-        bottom: 10em;
-        left: 10em;
-    }
-
-    /* .page3{
-
-    } */
-
-}
 
 /* page-4 */
 .page4{
@@ -317,6 +269,7 @@
     top: 1em;
 }
 
+
 /* PAGE 5 */
 .page5{
     width: 87.25rem;
@@ -326,6 +279,7 @@
     align-items: center;
     border-bottom: 0.58em solid rgb(58, 58, 58);
 }
+
 
 /* PAGE 6 */
 .page6{
@@ -404,3 +358,83 @@
     flex-direction: column;
     gap: 1.3em 0em;
 }
+
+/* @media only screen and (max-width: 955px){
+
+    .hero-page{
+        width: 57em;
+        height: 750px;
+        border-bottom: 0.58em solid rgb(58, 58, 58);
+    }
+
+    .hero-page-background{
+        width: 57em;
+        height: 750px;
+        position: absolute;
+        background-image: url(hero-image.jpg);
+        background-size: cover;
+        filter: brightness(0.3);
+    }
+
+    .hero-content{
+        width: 57em;
+    }
+
+    .page2, .page3, .page4, .page5{
+        width: 57em;
+        height: 42em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .heading-content-page2{
+        height: 16em;
+        margin-right: 8em;
+        margin-bottom: 5rem;
+    }
+
+    .image-video-page2{
+        height: 11em;
+        position: relative;
+        bottom: 10em;
+        left: 10em;
+    }
+
+    .heading-page3{
+         width: 60em; 
+        margin-top: 2em;
+        margin-left: 4em;
+        font-size: 2.5rem;
+    }
+
+    .page5-heading{
+        margin-left: 25rem;
+    }
+
+    .page6{
+        width: 57em;
+        height: 62em;
+    }
+
+    .page7-footer{
+        width: 57em;
+    }
+
+    .content-page3{
+        font-size: 1rem; 
+        margin-left: 7em;
+    }
+
+    .photo-page3{
+        margin-top: 5em;
+        margin-right: 15em;
+    }
+
+    .boxes-page5{
+        width: 800.771px;
+    }
+
+
+} */
